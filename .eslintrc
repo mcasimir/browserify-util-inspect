@@ -1,0 +1,17 @@
+{
+  "plugins": ["jest"],
+  "extends": [
+    "google",
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:jest/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "require-jsdoc": "off",
+    "no-multiple-empty-lines": "error"
+  }
+}
+

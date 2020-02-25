@@ -1,0 +1,23 @@
+{
+  "name": "browserify-inspect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 10"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-jest": "^23.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "jest": "^25.1.0"
+  }
+}
