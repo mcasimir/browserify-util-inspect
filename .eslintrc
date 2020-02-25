@@ -1,17 +1,20 @@
 {
-  "plugins": ["jest"],
+  "plugins": [
+    "mocha"
+  ],
   "extends": [
-    "google",
+    "mongodb-js/node",
     "eslint:recommended",
-    "plugin:node/recommended",
-    "plugin:jest/recommended"
+    "plugin:node/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020
   },
   "rules": {
     "require-jsdoc": "off",
-    "no-multiple-empty-lines": "error"
+    "no-multiple-empty-lines": "error",
+    "valid-jsdoc": "off",
+    "mocha/no-skipped-tests": "warn",
+    "mocha/no-exclusive-tests": "error"
   }
 }
-
